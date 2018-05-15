@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7B293FE2-2F37-4DF3-8F99-0815EE135CAF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CoffeeShop</RootNamespace>
+    <AssemblyName>CoffeeShop</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddDrink.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDrink.Designer.cs">
+      <DependentUpon>AddDrink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddSnack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSnack.Designer.cs">
+      <DependentUpon>AddSnack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cash.Designer.cs">
+      <DependentUpon>Cash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CashRec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashRec.Designer.cs">
+      <DependentUpon>CashRec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Check.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Check.Designer.cs">
+      <DependentUpon>Check.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckRec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckRec.Designer.cs">
+      <DependentUpon>CheckRec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Credit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Credit.Designer.cs">
+      <DependentUpon>Credit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreditRec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreditRec.Designer.cs">
+      <DependentUpon>CreditRec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MOP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MOP.Designer.cs">
+      <DependentUpon>MOP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Drink.cs" />
+    <Compile Include="DrinkList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DrinkList.Designer.cs">
+      <DependentUpon>DrinkList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewPassword.Designer.cs">
+      <DependentUpon>NewPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Password.Designer.cs">
+      <DependentUpon>Password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Products.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RemoveItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemoveItem.Designer.cs">
+      <DependentUpon>RemoveItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReusableCode.cs" />
+    <Compile Include="Snack.cs" />
+    <Compile Include="SnackOrDrinks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SnackOrDrinks.Designer.cs">
+      <DependentUpon>SnackOrDrinks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SnacksList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SnacksList.Designer.cs">
+      <DependentUpon>SnacksList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SOD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SOD.Designer.cs">
+      <DependentUpon>SOD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SOD2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SOD2.Designer.cs">
+      <DependentUpon>SOD2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewList.Designer.cs">
+      <DependentUpon>ViewList.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddDrink.resx">
+      <DependentUpon>AddDrink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddSnack.resx">
+      <DependentUpon>AddSnack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cash.resx">
+      <DependentUpon>Cash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashRec.resx">
+      <DependentUpon>CashRec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Check.resx">
+      <DependentUpon>Check.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckRec.resx">
+      <DependentUpon>CheckRec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Credit.resx">
+      <DependentUpon>Credit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreditRec.resx">
+      <DependentUpon>CreditRec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MOP.resx">
+      <DependentUpon>MOP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DrinkList.resx">
+      <DependentUpon>DrinkList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewPassword.resx">
+      <DependentUpon>NewPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Password.resx">
+      <DependentUpon>Password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="RemoveItem.resx">
+      <DependentUpon>RemoveItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SnackOrDrinks.resx">
+      <DependentUpon>SnackOrDrinks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SnacksList.resx">
+      <DependentUpon>SnacksList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SOD.resx">
+      <DependentUpon>SOD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SOD2.resx">
+      <DependentUpon>SOD2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewList.resx">
+      <DependentUpon>ViewList.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\DataSources\ReusableCode.datasource" />
+    <None Include="Properties\DataSources\Snack.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
