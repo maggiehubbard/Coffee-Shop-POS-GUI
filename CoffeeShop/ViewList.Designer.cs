@@ -48,6 +48,7 @@
             this.Controls.Add(this.listBox1);
             this.Name = "ViewList";
             this.Text = "ViewList";
+            this.Load += new System.EventHandler(this.ViewList_Load);
             this.ResumeLayout(false);
 
         }

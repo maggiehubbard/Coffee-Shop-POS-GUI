@@ -24,7 +24,7 @@ namespace CoffeeShop
 
             
         }
-        public static List<Snack> ReadSnackFile(string filename)
+        public static List<Snack> ReadSnackFile(string filename) //reads from text file
         {
             List<Snack> snack = new List<Snack>();
 

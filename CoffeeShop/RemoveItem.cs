@@ -24,9 +24,7 @@ namespace CoffeeShop
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Form1 main = new Form1(); //opens a new main window
-            main.Show();
+            Close();
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -62,6 +60,8 @@ namespace CoffeeShop
         private void button1_Click(object sender, EventArgs e)
         {
             ReusableCode.ShoppingCart.RemoveAt(comboBox1.SelectedIndex);
+            ReusableCode.PriceCart.RemoveAt(comboBox1.SelectedIndex);
+            ReusableCode.QuantityList.RemoveAt(comboBox1.SelectedIndex);
             MessageBox.Show("Item Deleted Successfully!");
             Form1 main = new Form1();
             main.Show();

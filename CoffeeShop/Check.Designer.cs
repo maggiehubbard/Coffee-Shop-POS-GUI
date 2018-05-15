@@ -36,7 +36,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(142, 84);
+            this.textBox1.Location = new System.Drawing.Point(58, 93);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(144, 20);
             this.textBox1.TabIndex = 0;
@@ -45,17 +45,20 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(44, 87);
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(30, 34);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(78, 13);
+            this.label1.Size = new System.Drawing.Size(215, 40);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Check Number";
+            this.label1.Text = "Enter a valid check number \r\n(xxxxxxxxx xxxxxxxxx):";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(142, 151);
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(101, 140);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(77, 29);
             this.button1.TabIndex = 2;
             this.button1.Text = "Pay";
             this.button1.UseVisualStyleBackColor = true;
@@ -63,9 +66,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(117, 195);
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(76, 184);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(124, 30);
+            this.button2.Size = new System.Drawing.Size(126, 36);
             this.button2.TabIndex = 3;
             this.button2.Text = "Back to Main Menu";
             this.button2.UseVisualStyleBackColor = true;
@@ -75,7 +79,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(340, 356);
+            this.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.ClientSize = new System.Drawing.Size(278, 248);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);

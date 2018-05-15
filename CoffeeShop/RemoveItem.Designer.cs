@@ -39,20 +39,23 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 12);
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.textBox1.Font = new System.Drawing.Font("Gill Sans MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(25, 40);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(271, 28);
+            this.textBox1.Size = new System.Drawing.Size(295, 72);
             this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "Enter the number of the item you would like to delete: ";
+            this.textBox1.Text = "Select the item you would like to delete:";
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(104, 108);
+            this.button1.Font = new System.Drawing.Font("Gill Sans MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(104, 118);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 35);
+            this.button1.Size = new System.Drawing.Size(109, 35);
             this.button1.TabIndex = 3;
             this.button1.Text = "Remove Item";
             this.button1.UseVisualStyleBackColor = true;
@@ -60,9 +63,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(104, 173);
+            this.button2.Font = new System.Drawing.Font("Gill Sans MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(104, 176);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 35);
+            this.button2.Size = new System.Drawing.Size(109, 35);
             this.button2.TabIndex = 4;
             this.button2.Text = "Back to Main";
             this.button2.UseVisualStyleBackColor = true;
@@ -76,9 +80,9 @@
             // 
             this.comboBox1.DataSource = this.reusableCodeBindingSource;
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(92, 63);
+            this.comboBox1.Location = new System.Drawing.Point(90, 78);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.Size = new System.Drawing.Size(134, 21);
             this.comboBox1.TabIndex = 5;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -86,6 +90,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Thistle;
             this.ClientSize = new System.Drawing.Size(346, 229);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button2);

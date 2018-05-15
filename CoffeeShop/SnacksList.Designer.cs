@@ -43,17 +43,19 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(115, 9);
+            this.label1.Font = new System.Drawing.Font("Lemon/Milk", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(113, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 13);
+            this.label1.Size = new System.Drawing.Size(93, 28);
             this.label1.TabIndex = 2;
             this.label1.Text = "SNACKS";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(107, 143);
+            this.button1.Font = new System.Drawing.Font("Perpetua", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(99, 140);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(82, 28);
             this.button1.TabIndex = 4;
             this.button1.Text = "ADD ITEM";
             this.button1.UseVisualStyleBackColor = true;
@@ -61,9 +63,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(85, 193);
+            this.button2.Font = new System.Drawing.Font("Perpetua", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(74, 185);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(113, 23);
+            this.button2.Size = new System.Drawing.Size(120, 28);
             this.button2.TabIndex = 5;
             this.button2.Text = "Close";
             this.button2.UseVisualStyleBackColor = true;
@@ -82,9 +85,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(35, 106);
+            this.label2.Font = new System.Drawing.Font("Perpetua", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(7, 101);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 13);
+            this.label2.Size = new System.Drawing.Size(73, 22);
             this.label2.TabIndex = 7;
             this.label2.Text = "Quantity";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -105,6 +109,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightCoral;
             this.ClientSize = new System.Drawing.Size(303, 240);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.label2);

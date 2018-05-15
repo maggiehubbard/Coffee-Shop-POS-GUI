@@ -56,5 +56,10 @@ namespace CoffeeShop
             Form1 toMM = new Form1();
             toMM.Show();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

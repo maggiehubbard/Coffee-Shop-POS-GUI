@@ -37,7 +37,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Gill Sans MT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(40, 80);
+            this.button1.Location = new System.Drawing.Point(27, 80);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(110, 71);
             this.button1.TabIndex = 0;
@@ -58,7 +58,8 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(97, 195);
+            this.button3.Font = new System.Drawing.Font("Gill Sans MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(102, 167);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(133, 42);
             this.button3.TabIndex = 2;
@@ -70,7 +71,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Lemon/Milk", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(78, 44);
+            this.label1.Location = new System.Drawing.Point(65, 25);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(202, 20);
             this.label1.TabIndex = 3;
@@ -81,7 +82,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Tan;
-            this.ClientSize = new System.Drawing.Size(355, 298);
+            this.ClientSize = new System.Drawing.Size(338, 243);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);

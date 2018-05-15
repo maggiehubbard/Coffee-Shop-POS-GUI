@@ -66,5 +66,10 @@ namespace CoffeeShop
 
             textBox2.Text = msg;
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

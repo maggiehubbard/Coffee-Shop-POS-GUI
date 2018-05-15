@@ -21,5 +21,10 @@ namespace CoffeeShop
         {
 
         }
+
+        private void ViewList_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
