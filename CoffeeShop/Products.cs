@@ -18,16 +18,6 @@ namespace CoffeeShop
         public double Price { get => price; set => price = value; }
         public string Categ { get => categ; set => categ = value; }
         public string Descrip { get => descrip; set => descrip = value; }
-        
-
-
-
-
-
-
-
-
-
-
+    
     }
 }

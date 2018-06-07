@@ -46,7 +46,7 @@ namespace CoffeeShop
                 }
                 MessageBox.Show($"LIST ITEMS:\n {message}");
             }
-    }
+        }
 
         private void button3_Click(object sender, EventArgs e)
         {
